@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+
+    font-family: "Racing Sans One", sans-serif;;
+}
+
+.add_modal{
+margin-top: 10px;
+   width: 260px;
+   height: 40px;
+   background-color: rgba(10, 66, 66, 0.929);
+   border-radius: 20px;
+   color: aliceblue;
+   font-weight: 800;
+   border: none;
+}
+
+.adder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn_on{
+    
+}
+.btn_on{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.modal-window-one{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.536);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+
+.modal-window{
+    width: 430px;
+    height: 500px;
+    background-color: aqua;
+    margin-left: 470px;
+    margin-top: 100px;
+}
+
+.btn_on h1{
+    color: rgb(18, 127, 45);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.btn_on span{
+    color: rgb(12, 89, 40);
+}
+
+.modal input{
+    width: 300px;
+    height: 40px;
+    font-size: 23px;
+    border-radius: 10px;
+    
+    
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 100px;
+    
+}
+.modal button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.modal button:hover{
+    background-color: green;
+}
+
+.section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width: 91%;
+    margin: 0 auto;
+}
+.section a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#section{
+    margin-top: 20px;
+}
+
+.h{
+    text-align: center;
+    line-height: 80px;
+}
+.hero-one{
+    width: 400px;
+    height: 470px;
+    background-color: rgba(41, 137, 137, 0.521);
+}
+.hero-two{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.hero{
+    display: flex;
+}
+
+.img-modal{
+    width: 276px;
+    height: 220px;
+    border-radius: 20px;
+}
+.modal input{
+    padding-left: 10px;
+}
+.div_contant{
+    width: 300px;
+    height: 455px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 15px;
+}
+.div_contant p {
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(59, 55, 55);
+}
+
+.div_contant h5{
+    
+    font-size: 16px;
+    color: rgb(18, 18, 18);
+}
+.div_contant h1{
+    font-size: 26px;
+    color: black;
+}
+.joj p{
+    font-weight: 700;
+    color: #eceff0;
+    
+}
+.btn-adit {
+    width: 276px;
+    height: 40px;
+    border-radius: 10px;
+    
+    background-color: rgba(18, 104, 75, 0.803);
+    border: none;
+}
+.ord h1{
+    color: #353839;
+    
+}
+
+.btn{
+    width: 276px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(18, 104, 75, 0.382);
+    border: none;
+}
+
+.hero-one img{
+    width: 64px;
+    height: 52px;
+    border-radius: 10px;
+}
+
+.hero-three{
+    height: 350px;
+    overflow-y: scroll;
+    max-height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: thin; 
+    
+    scrollbar-color: #eceff0 #868496; 
+}
+
+
+.ord {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.total h1{
+    color: rgb(20, 20, 19);
+    font-weight: 800;
+}
+.joj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contantor button{
+    width: 268px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(10, 66, 66, 0.929);
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lol {
+    width: 10px;
+    height: 10px;
+    
+}
+
+
+.div_or{
+    display: flex;
+    align-items: center;
+    
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-one{
+    padding: 10px;
+}
+.total p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-order-plast{
+    width: 30px;
+    height: 20px;
+    border: none;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+    
+}
+
+
+
+.btn-order-minus{
+    width: 30px;
+    height: 20px;
+    border: none;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+}
+
+.p_order_count{
+    font-size: 25px;
+}
+
+.div-order-two{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    
+}
+
+
+
+
+.delete_order{
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 12px;
+    color: rgb(31, 29, 29);
+    font-size: 16px;
+    font-weight: 800;
+}
